@@ -1,0 +1,51 @@
+    /*tag 名，元素选择器*/  
+    * {  
+        margin:0;  
+    }  
+    header,footer{  
+        background-color: #4a4;  
+        color: #fff;  
+        font-size:2em;  
+        padding:1em;  
+        text-align:center;  
+    }  
+      
+    footer {  
+        font-size: 2em;  
+        /*定义绝对位置才能用bottom，left，right，top，和下一句是一起用的*/  
+        position: fixed;  
+        /*离底部多少像素*/  
+        bottom: 20px;  
+        text-align: left;  
+        width:100%;  
+    }  
+      
+    main {  
+        width:80%;  
+        background-color: #eee;  
+        /*外边距距离，加上auto就是左右自动相等*/  
+        margin:2em auto;  
+        /*没有这个发现剩余的没显示*/  
+        overflow: auto;  
+    }  
+      
+    aside {  
+        width: 40%;  
+        background-color: #f00;  
+        float: left;  
+    }  
+    article {  
+      width: %60;  
+      background-color: #00f;  
+      float:right;  
+      min-height:300px;  
+    }  
+    button,input {  
+      
+      
+        font-size:1.5em;  
+    }  
+    input {  
+        /*上下边距*/  
+        margin: 0 2em;  
+    }  
